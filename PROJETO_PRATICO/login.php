@@ -59,13 +59,13 @@ if (isset($_POST['email'])) {
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Login - Serjão Materiais</title>
+<title>Login - Bella Materiais</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <h2>Login - Serjão Materiais</h2>
-  <form method="post">
+<div class="container-form">
+  <h2 class="h2-form">Bella Materiais</h2>
+  <form class= "form"method="post">
     <input type="email" name="email" placeholder="E-mail" required><br>
     <input type="password" name="senha" placeholder="Senha" required><br>
     <button type="submit">Entrar</button>

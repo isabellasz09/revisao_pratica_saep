@@ -22,14 +22,14 @@ $usuario = $_SESSION['usuario'];
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Painel - Serjão Materiais</title>
+<title>Painel - Bella Materiais</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-  <h2>Bem-vindo, <?php echo $usuario; ?>!</h2>
-  <a href="cadastro_produto.php">📦 Cadastro de Produtos</a><br>
-  <a href="estoque.php">📊 Gestão de Estoque</a><br>
+  <h2>Bem-vindo!, <?php echo $usuario; ?>!</h2>
+  <a href="cadastro_produto.php">Cadastro de Produtos</a><br>
+  <a href="estoque.php">Gestão de Estoque</a><br>
   <a href="logout.php" class="sair">Sair</a>
 </div>
 </body>
